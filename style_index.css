@@ -1,0 +1,28 @@
+/* les style css pour la page index.php */
+h1 {
+	text-align: center;
+	font-size: 4em;
+}
+
+.blocsGauche {
+	border: 5px solid #5B5DFF;
+	width: 80%;
+	padding: 20px;
+	margin: 40px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.blocsDroit {
+	border: 5px solid #5B5DFF;
+	width: 80%;
+	padding: 20px;
+	margin: 40px;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+img {
+	width: 35%;
+}
