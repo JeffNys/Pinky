@@ -1,7 +1,7 @@
 <?php
 include("_nav.php");
 ?>
-<form action="cible.php" method="post">
+<form action="cible.php" method="POST">
 <h2 id="contact">Contactez-moi !</h2>
         <p>Pour d'autres informations ou questions , je me ferais un plaisir de vous répondre .<p>
         
