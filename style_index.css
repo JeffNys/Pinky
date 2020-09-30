@@ -1,2 +1,12 @@
 /* les style css pour la page index.php */
+.blocs {
+	border-width: 3px;
+	border-color: blue;
+	width: 80%;
+	background-color: grey;
+	align: left;
+}
 
+.blocs:nth-of-type(2n) {
+	align: right;
+}

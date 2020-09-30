@@ -28,7 +28,7 @@
 	<div class="blocs">
 		<!-- ici le bloc testez moi, ou, me voir en action -->
 		<h2>Me voir en action</h2>
-		<img src="giphy.gif" >	
+		<img src="giphy.gif" alt="animation de Pinky attrapant pacman">	
 	</div>
 
 	<div class="blocs">
