@@ -9,8 +9,8 @@ h1 {
 	width: 80%;
 	padding: 20px;
 	margin: 40px;
-	display: flex;
-	justify-content: flex-start;
+	float: left;
+	clear: both;
 }
 
 .blocsDroit {
@@ -18,9 +18,8 @@ h1 {
 	width: 80%;
 	padding: 20px;
 	margin: 40px;
-
-	display: flex;
-	justify-content: flex-end;
+	float: right;
+	clear: both;
 }
 
 img {
