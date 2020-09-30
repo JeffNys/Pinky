@@ -6,4 +6,27 @@
 h1 {
 	font-family: 'CrackMan';
 	color: pink;
+  text-align: center;
+}
+
+nav {
+  height: 100%;
+  margin: 0px;
+}
+nav ul {
+  display: flex;
+}
+
+nav li {
+  font-family: 'CrackMan';
+  list-style-type: none;
+  padding: 15px;
+}
+
+nav a {
+  color: yellow;
+}
+
+nav a:hover {
+  text-decoration: none;
 }
