@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>title</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
 	<?php include("_nav.php"); ?>
-	<p>ici, on est dans l'index.php</p><br>	
+	<h1>Speedy - Pinky</h1>	
 	<?php include("_footer.php"); ?>
   </body>
 </html>

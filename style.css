@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CrackMan';
+    src: url('crackman.ttf') format('truetype');
+}
+
+h1 {
+	font-family: 'CrackMan';
+	color: pink;
+}
