@@ -22,7 +22,7 @@ include("_nav.php");
     <p><label for="emailadress">Votre email svp :</label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@">
     <p>
         <label for="mail">votre message :</label> <br />
-        <textarea name="sendmail" id="mail" rows="15" cols="100">
+        <textarea name="sendmail" id="mail" rows="15" cols="80">
         </textarea>
     </p>
       <input type="submit" value="Envoyer" />
