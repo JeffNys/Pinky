@@ -29,7 +29,8 @@
 		<div class="blocs">
 			<!-- ici le bloc testez moi, ou, me voir en action -->
 			<h2>Me voir en action</h2>
-			<img src="giphy.gif" alt="animation de Pinky attrapant pacman">	
+			<img src="giphy.gif" alt="animation de Pinky attrapant pacman">
+			<a href="" class="bouton1">Testez-moi</a>
 		</div>
 		
 		<div class="blocs">
@@ -37,6 +38,7 @@
 			<h2>Contactez moi</h2>
 			<p>Si ça vous a plu, et que vous voulez me proposer du travail, il vous suffit de me contacter
 			</p>
+			<a href="contact.php" class="bouton1">contactez-moi</a>
 		</div>
 	</div>				
 	<?php include("_footer.php"); ?>
