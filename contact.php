@@ -1,9 +1,23 @@
-<?php
+<?php ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+ <?php 
+  
+
 include("_nav.php");
 ?>
-<form action="cible.php" method="post">
+<form action="cible.php" method="POST">
 <h2 id="contact">Contactez-moi !</h2>
         <p>Pour d'autres informations ou questions , je me ferais un plaisir de vous répondre .<p>
+        <p><label for="Nom">Votre Nom svp :</label><input type="text" name="Nom" id="Nom" size="15">
+
+        <p><label for="Nom">Votre Prénom svp :</label><input type="text" name="Prénom" id="Nom" size="15">
         
         <p><label for="emailadress">Votre email svp :</label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@">
         <p>
@@ -17,3 +31,5 @@ include("_nav.php");
 <?php
 include("_footer.php");
 ?>
+</body>
+</html>
