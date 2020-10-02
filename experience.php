@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="experience.css" />
-    <title>Pinky-expériences</title>
+    <title>speedy-Pinky</title>
 
 </head>
 
@@ -20,11 +20,12 @@
              <li>Terrain de jeu : Atari, Arcade2600</li>
              <li>Mission accomplie : Tempête arcadienne, Fantomathon, Eat-man </li>
 
-    <h2>Expérience en tant que formatrice : ci joints une brèves présentation de mes élèves</h2>
+    <h2>Expérience en tant que formatrice : ci-joint une brève présentation de mes élèves</h2>
 
 <section>
 
     <img src="Blinky_PAC-MAN.png" alt="Photo de Blinky" ><br>
+    
         
     <p><li>Blinky : Mon Ghost officier, 1er wilder que j'ai formé</li></p>
     <p><li>C'est un chasseur redoutable, il est en permanence sur les talons de Pac-man</li></p>
