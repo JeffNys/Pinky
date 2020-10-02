@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Speedy-Pinky</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style_index.css">
   </head>

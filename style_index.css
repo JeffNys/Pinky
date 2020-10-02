@@ -22,7 +22,7 @@ img {
 }
 
 .bouton1 {
-	text-align: right;
+	align-self: flex-end;
 	border-radius: 8px;
 }
 
