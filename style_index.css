@@ -1,9 +1,4 @@
 /* les style css pour la page index.php */
-h1 {
-	text-align: center;
-	font-size: 4em;
-}
-
 .tram {
 	display: flex;
 	flex-direction: column;
