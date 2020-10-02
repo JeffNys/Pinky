@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <?php include("_nav.php"); ?>   
+    <nav></nav>
 
     <h1>Mon expérience de ghost wildeuse</h1>
         <ul>
@@ -59,5 +61,5 @@
     </section>
         </ul>
 
-</body>
+</body><?php include("_footer.php"); ?>
 </html>
