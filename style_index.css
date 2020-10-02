@@ -4,24 +4,39 @@ h1 {
 	font-size: 4em;
 }
 
-.blocsGauche {
-	border: 5px solid #5B5DFF;
-	width: 80%;
-	padding: 20px;
-	margin: 40px;
-	float: left;
-	clear: both;
+.tram {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.blocsDroit {
+.blocs {
 	border: 5px solid #5B5DFF;
 	width: 80%;
 	padding: 20px;
 	margin: 40px;
-	float: right;
-	clear: both;
+	border-radius: 30px;
+}
+
+.blocs:nth-child(even) {
+	align-self: flex-end;
 }
 
 img {
 	width: 35%;
+}
+
+.bouton1 {
+	text-align: right;
+	border-radius: 8px;
+}
+
+a.bouton1 {
+	padding: 10px 30px;
+	background: #5B5DFF;
+	color: Black;
+}
+
+a.bouton1:hover {
+	background: pink;
 }
