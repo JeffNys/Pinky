@@ -10,14 +10,19 @@ body {
 
 h1 {
 	font-family: 'CrackMan';
-	color: pink;
+	color: #FF69CE;
   text-align: center;
 	font-size: 4em;
+	height: 4em;
+	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
 }
 
 nav {
   height: 100%;
   margin: 0px;
+}
+.pinkyNav{
+	width: 50px;
 }
 nav ul {
   display: flex;
@@ -26,6 +31,7 @@ nav ul {
 nav li {
   font-family: 'CrackMan';
   list-style-type: none;
+	font-size: 40px;
   padding: 15px;
 }
 
