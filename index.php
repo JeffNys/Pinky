@@ -14,7 +14,13 @@
 		<div class="blocs">
 			<!-- ici le bloc présentation -->
 			<h2>Mes capacités</h2>
-			
+			<ul>
+				<li>chasseuse d'intrus</li>
+				<li>coach en tracking</li>
+				<li>maitre d'armes</li>
+				<li>membre de la ligue des fantomes historique</li>
+				<li>liste à completer + mise en forme</li>
+			</ul>	
 		</div>
 
 		<div class="blocs">
