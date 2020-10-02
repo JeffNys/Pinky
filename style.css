@@ -1,3 +1,8 @@
+body {
+	background-color: black;
+	color: white;
+}
+
 @font-face {
     font-family: 'CrackMan';
     src: url('crackman.ttf') format('truetype');
@@ -5,6 +10,7 @@
 
 h1 {
 	font-family: 'CrackMan';
+<<<<<<< HEAD
 	color: pink;
   text-align: center;
 }
@@ -29,4 +35,7 @@ nav a {
 
 nav a:hover {
   text-decoration: none;
+=======
+	color: #FF69CE;
+>>>>>>> f62bf05a206c2aee2217e2752a162ff64a1b4660
 }
