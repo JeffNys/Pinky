@@ -36,7 +36,7 @@
 			<!-- ici le bloc testez moi, ou, me voir en action -->
 			<h2>Me voir en action</h2>
 			<img src="giphy.gif" alt="animation de Pinky attrapant pacman">
-			<a href="" class="bouton1">Testez-moi</a>
+			<a href="game.php" class="bouton1">Testez-moi</a>
 		</div>
 		
 		<div class="blocs">
