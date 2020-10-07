@@ -43,3 +43,12 @@ nav a:hover {
   text-decoration: none;
   color: #FF69CE;
 }
+
+.footer_index {
+   position: fixed;
+   bottom:0;
+}
+
+.clavier {
+   width: 100%;
+}
