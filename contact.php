@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style_contact.css" type="text/css">
     <meta charset="UTF-8">
     <title>Speedy-Pinky</title>
   </head>
   <body>
+  <div class="ecran">
  <?php 
-  
+  include("_nav.php");
+ ?>
+ 
+ <h1 id="contact">Contactez-moi !</h1>
 
-include("_nav.php");
-?>
-<h1 id="contact">Contactez-moi !</h1>
+ <form action="cible.php" method="POST">
 
-  <form action="cible.php" method="POST">
-    <p>Pour d'autres informations ou questions , je me ferais un plaisir de vous répondre .<p>
-    <p><label for="Nom">Votre Nom svp :</label><input type="text" name="Nom" id="Nom" size="15">
+  <DIV ALIGN="CENTER">
 
-    <p><label for="Nom">Votre Prénom svp :</label><input type="text" name="Prénom" id="Nom" size="15">
+    <h2> Plus d'informations ou questions ? </h2>
+
+    <h3> Laissez-moi vos impressions ou interrogations , je vous répondrais entre 2 crocs de Pac-Man ! </h3>
+
+    <h2> MERCI ! </h2>
+
+    <p><label for="Nom"> Ton Nom : </label><input type="text" name="Nom" id="Nom" size="15"></p>
+
+    <p><label for="Prenom"> Ton Prénom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
     
-    <p><label for="emailadress">Votre email svp :</label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@">
+    <p><label for="emailadress"> E-Mail ! </label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
+
     <p>
-        <label for="mail">votre message :</label> <br />
+        <label for="mail"> <h2> Your Message :</h2> </label> <br/>
         <textarea name="sendmail" id="mail" rows="15" cols="80">
         </textarea>
     </p>
+    
       <input type="submit" value="Envoyer" />
-</form>
 
+  </DIV>
+
+ </form>
+</div>
 <?php
 include("_footer.php");
 ?>
