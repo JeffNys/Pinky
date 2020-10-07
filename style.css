@@ -30,6 +30,7 @@ nav ul {
 
 nav li {
   font-family: 'CrackMan';
+	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
   list-style-type: none;
 	font-size: 40px;
   padding: 15px;

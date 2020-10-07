@@ -1,11 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>Speedy-Pinky</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_index.css">
   </head>
+
   <body>
     <header>
 	<?php include("_nav.php"); ?>
