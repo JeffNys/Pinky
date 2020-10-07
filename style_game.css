@@ -5,15 +5,6 @@
   font-style: normal;
 }
 
-#all_page{
-  background-color: black;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 250px;
-}
 #pacman {
   display: flex;
   height:450px;
