@@ -4,9 +4,7 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-  background-color: blue;
-}
+
 #all_page{
   background-color: black;
   width: 80%;
@@ -14,6 +12,7 @@ body {
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
+  padding-bottom: 250px;
 }
 #pacman {
   display: flex;

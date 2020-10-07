@@ -24,8 +24,8 @@ h1 {
 	font-family: 'CrackMan';
 	color: #FF69CE;
   text-align: center;
+	vertical-align: middle;
 	font-size: 4em;
-	height: 4em;
 	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
 }
 
