@@ -10,8 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 250px;
 }
 
 @font-face {
@@ -60,9 +61,9 @@ nav a:hover {
 footer {
    position: fixed;
    bottom:0;
-   left: 10%;
+   left: 7%;
    height: 311px;
-   width: 80%;
+   width: 86%;
    border: 0;
    background-size: 100%;
    background-image: url('clavierArcade2.png');
