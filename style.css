@@ -1,18 +1,33 @@
 body {
-	background-image: url('https://swall.teahub.io/photos/small/27-274415_pacman-dual-monitor-pacman-background.jpg');
+	background-image: url('pacman-background.jpg');
     background-attachment: fixed;
 	color: white;
     margin: 0;
     padding: 0;
 }
 
+.hautFixe {
+   position: fixed;
+   top: 0;
+   height: 40px;
+   width: 100%;
+   border: 0;
+   background-image: url('pacman-background.jpg');
+}
+
 .ecran {
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url('fondEcran.png');
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 250px;
+    padding-top: 40px;
 }
 
 @font-face {
@@ -24,8 +39,8 @@ h1 {
 	font-family: 'CrackMan';
 	color: #FF69CE;
   text-align: center;
+	vertical-align: middle;
 	font-size: 4em;
-	height: 4em;
 	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
 }
 
@@ -66,7 +81,7 @@ footer {
    width: 86%;
    border: 0;
    background-size: 100%;
-   background-image: url('clavierArcade2.png');
+   background-image: url('clavierArcade3.png');
    background-position: bottom;
    background-repeat: no-repeat;
 
