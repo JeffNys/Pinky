@@ -13,15 +13,17 @@ body {
    width: 100%;
    border: 0;
    background-image: url('pacman-background.jpg');
-   /*background-size: 100%;
-   background-image: url('backgroundHaut.png');
-   background-position: top;*/
 }
 
 .ecran {
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url('fondEcran.png');
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 250px;
