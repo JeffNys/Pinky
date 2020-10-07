@@ -1,7 +1,17 @@
 body {
-	background-color: black;
+	background-image: url('https://swall.teahub.io/photos/small/27-274415_pacman-dual-monitor-pacman-background.jpg');
+    background-attachment: fixed;
 	color: white;
-    
+    margin: 0;
+    padding: 0;
+}
+
+.ecran {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @font-face {
@@ -22,6 +32,7 @@ nav {
   height: 100%;
   margin: 0px;
 }
+
 .pinkyNav{
 	width: 50px;
 }
@@ -49,15 +60,13 @@ nav a:hover {
 footer {
    position: fixed;
    bottom:0;
-   height: 211px;
-   width: 100%;
+   left: 10%;
+   height: 311px;
+   width: 80%;
+   border: 0;
    background-size: 100%;
    background-image: url('clavierArcade2.png');
    background-position: bottom;
    background-repeat: no-repeat;
 
-}
-
-.clavier {
-   width: 100%;
 }
