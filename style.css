@@ -1,6 +1,7 @@
 body {
 	background-color: black;
 	color: white;
+    
 }
 
 @font-face {
@@ -45,9 +46,16 @@ nav a:hover {
   color: #FF69CE;
 }
 
-.footer_index {
+footer {
    position: fixed;
    bottom:0;
+   height: 211px;
+   width: 100%;
+   background-size: 100%;
+   background-image: url('clavierArcade2.png');
+   background-position: bottom;
+   background-repeat: no-repeat;
+
 }
 
 .clavier {

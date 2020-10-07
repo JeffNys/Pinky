@@ -51,9 +51,7 @@
 			<a href="contact.php" class="bouton1">contactez-moi</a>
 		</div>
 	</div>
-    </main>
-    <footer class="footer_index">				
+    </main>			
 	<?php include("_footer.php"); ?>
-    </footer>
   </body>
 </html>
