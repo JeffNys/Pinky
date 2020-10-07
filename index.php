@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="style_index.css">
   </head>
   <body>
+    <header>
 	<?php include("_nav.php"); ?>
-	<h1>Speedy - Pinky</h1>
+    </header>
+    <main>	
+    <h1>Speedy - Pinky</h1>
 	<!-- les blocs sont contenus dans des div avec classes blocsDroit et BlocsGauche -->
 	<div class="tram">
 		<div class="blocs">
@@ -35,7 +38,7 @@
 		<div class="blocs">
 			<!-- ici le bloc testez moi, ou, me voir en action -->
 			<h2>Me voir en action</h2>
-			<img src="giphy.gif" alt="animation de Pinky attrapant pacman">
+			<img class="anime" src="giphy.gif" alt="animation de Pinky attrapant pacman">
 			<a href="game.php" class="bouton1">Testez-moi</a>
 		</div>
 		
@@ -46,7 +49,10 @@
 			</p>
 			<a href="contact.php" class="bouton1">contactez-moi</a>
 		</div>
-	</div>				
+	</div>
+    </main>
+    <footer class="footer_index">				
 	<?php include("_footer.php"); ?>
+    </footer>
   </body>
 </html>
