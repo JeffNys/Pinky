@@ -1,2 +1,4 @@
-<?php
-echo "ici il y a le footer contenu dans _footer.php";
+<?php ?>
+<a href="game.php" title="vous voulez jouez?">
+	<img class="clavier" src="clavierArcade.png" alt="clavier d'arcade">
+</a>
