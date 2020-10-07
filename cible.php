@@ -6,7 +6,7 @@
   </head>
   <body>
   
-  <p> Bonjour , Bien reçu ! <?php echo $_POST['emailadress']; ?></p>
+  <h2> HELLO ! Bien reçu ! <?php echo $_POST['emailadress']; ?></h2>
   
   </body>
 </html>
