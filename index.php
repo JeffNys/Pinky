@@ -18,13 +18,13 @@
 	    <div class="tram">
 		    <div class="blocs">
 			    <!-- ici le bloc présentation -->
-			    <h2>Mes capacites</h2>
+			    <h2>Mes competences</h2>
 			    <ul>
 				    <li>chasseuse d'intrus</li>
 				    <li>coach en tracking</li>
 				    <li>maitre d'armes</li>
 				    <li>membre de la ligue des fantomes historique</li>
-				    <li>liste à completer + mise en forme</li>
+				    <li>star du retro-gaming</li>
 			    </ul>	
 		    </div>
 
@@ -32,7 +32,7 @@
 			    <!-- ici le bloc dernière expériences -->
 			    <h2>Mon parcours</h2>
 			    <p>Je suis connu de tous dans mon role dans Pac-Man (qui appartient a l'histoire),
-			    vous pouvez decouvrir mon parcour un peu plus detaille, ainsi que mes roles caches 
+			    vous pouvez decouvrir mon parcour un peu plus en detaille, ainsi que mes roles caches 
 			    dans les coulisses de ce jeu, c'est ici: </p>
 			    <a href="experience.php" class="bouton1">Voir +</a>	
 		    </div>
