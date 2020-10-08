@@ -26,37 +26,19 @@
 
     <form method="post" action="cible.php" id="form1">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa196560a9b1efc319264e9385f5b23291fc1962
     <p><label for="Prenom"> Ton Prénom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
 
     <p><label for="emailadress"> E-Mail ! </label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
 
-    <p>
-        <label for="mail"> <h2> Your Message :</h2> </label> <br/>
-        <textarea name="sendmail" id="mail" rows="15" cols="80">
-        </textarea>
-    </p>
-
-      <input type="submit" value="Envoyer" />
-=======
-=======
->>>>>>> 5364354dd8719ffaf0ecf3c17aeb964a69d44fdf
         <p><label for="Nom"> Ton Nom : </label><input type="text" name="Nom" id="Nom" size="15"></p>
 
             <p><label for="Prenom"> Ton Prenom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
     
             <p><label for="emailadress"> E-Mail ! :</label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
-
-<<<<<<< HEAD
->>>>>>> origin
-=======
->>>>>>> 5364354dd8719ffaf0ecf3c17aeb964a69d44fdf
-
-            <p><label for="mail"> Your Message : </label> <br/>
-            <textarea name="sendmail" id="mail" rows="15" cols="80">
-            </textarea>
-            <input type="submit" form="form1" value="Envoyer"/>
-            </p>
 
     </form>
 
