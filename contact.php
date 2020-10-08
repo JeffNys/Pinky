@@ -26,8 +26,7 @@
 
     <form method="post" action="cible.php" id="form1">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     <p><label for="Prenom"> Ton Prénom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
 
     <p><label for="emailadress"> E-Mail ! </label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
