@@ -24,7 +24,9 @@
 
     <h2> MERCI ! </h2>
 
-    <form method="post" action="cible.php" id="form1">
+  <form method="post" action="cible.php" id="form1">
+
+    <p><label for="Nom"> Ton Nom : </label><input type="text" name="Nom" id="Nom" size="15"></p>
 
     <p><label for="Prenom"> Ton Prénom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
 
@@ -39,15 +41,9 @@
       <input type="submit" class = "panneau " placeholder = "Envoyer" value="Envoyer" />
 
 
-        <p><label for="Nom"> Ton Nom : </label><input type="text" name="Nom" id="Nom" size="15"></p>
+  </form>
 
-            <p><label for="Prenom"> Ton Prenom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
-    
-            <p><label for="emailadress"> E-Mail ! :</label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
-
-    </form>
-
-</div>
+ </div>
 </div>
 <?php
 include("_footer.php");
