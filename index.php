@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Speedy-Pinky</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_index.css">
   </head>
 
   <body>
@@ -40,7 +40,7 @@
 		    <div class="blocs">
 			    <!-- ici le bloc testez moi, ou, me voir en action -->
 			    <h2>Me voir en action</h2>
-			    <img class="anime" src="giphy.gif" alt="animation de Pinky attrapant pacman">
+			    <img class="anime" src="img/giphy.gif" alt="animation de Pinky attrapant pacman">
 			    <a href="game.php" class="bouton1">Testez-moi</a>
 		    </div>
 		    

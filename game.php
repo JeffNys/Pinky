@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Speedy-Pinky</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="style_game.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style_game.css" type="text/css">
   </head>
   <body>
     <div class="ecran">

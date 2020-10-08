@@ -1,5 +1,5 @@
 body {
-	background-image: url('pacman-background.jpg');
+	background-image: url('../img/pacman-background.jpg');
     background-attachment: fixed;
 	color: white;
     margin: 0;
@@ -12,13 +12,13 @@ body {
    height: 40px;
    width: 100%;
    border: 0;
-   background-image: url('pacman-background.jpg');
+   background-image: url('../img/pacman-background.jpg');
 }
 
 .ecran {
     justify-content: center;
     align-items: center;
-    background-image: url('fondEcran.png');
+    background-image: url('../img/fondEcran.png');
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
 
 @font-face {
     font-family: 'CrackMan';
-    src: url('crackman.ttf') format('truetype');
+    src: url('../crackman.ttf') format('truetype');
 }
 
 h1 {
@@ -81,7 +81,7 @@ footer {
    width: 86%;
    border: 0;
    background-size: 100%;
-   background-image: url('clavierArcade3.png');
+   background-image: url('../img/clavierArcade3.png');
    background-position: bottom;
    background-repeat: no-repeat;
 

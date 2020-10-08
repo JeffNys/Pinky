@@ -1,7 +1,7 @@
 /* les style css pour la page index.php */
 @font-face {
   font-family: 'BDCartoonShoutRegular';
-  src: url('BD_Cartoon_Shout-webfont.ttf') format('truetype');
+  src: url('../BD_Cartoon_Shout-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
