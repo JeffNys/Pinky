@@ -3,64 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="experience.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/experience.css" />
     <title>speedy-Pinky</title>
 
 </head>
 
 <body>
+    <div class="ecran">
     <?php include("_nav.php"); ?>   
-    <nav></nav>
+    
+©
+    <div class="blok">
 
-    <h1>Mon expérience de ghost wildeuse</h1>
-        <ul>
-             <li>Créateur : Tori Iwatani</li>
-             <li>Année de naissance : 1980</li>
+        <div class= "Pac">
+    <h1 >Mon expérience de ghost wildeuse</h1>
+    
+        <ul class="Presentation">
+             <li>Createur : Tori Iwatani</li>
+             <li>Annee de naissance : 1980</li>
              <li>Terrain de jeu : Atari, Arcade2600</li>
-             <li>Mission accomplie : Tempête arcadienne, Fantomathon, Eat-man </li>
+             <li>Mission accomplie : Tempete arcadienne, Fantomathon, Eat-man </li>
 
-    <h2>Expérience en tant que formatrice : ci-joint une brève présentation de mes élèves</h2>
-
-<section>
-
-    <img src="Blinky_PAC-MAN.png" alt="Photo de Blinky" ><br>
-    
-        
-    <p><li>Blinky : Mon Ghost officier, 1er wilder que j'ai formé</li></p>
-    <p><li>C'est un chasseur redoutable, il est en permanence sur les talons de Pac-man</li></p>
-    <p><li>Points forts : agressivité,vitesse, détermination </li> </p>
-    
-
-    </section>
-
-<section>
-
-    <img src="Inky_PAC-MAN.png" alt="Photo de Inky" ><br>
-    <p><li>Inky : bras de de Blinky</li></p>
-    <p><li>C'est un vrai camaléon qui change d'apparence pour plongé sur ses proies</li></p>
-    <p><li>Points forts : Intelligence, tactique </li> </p>
-
-</section>
-
-<section>
-
-    <img src="Clyde_PAC-MAN.png" alt="Photo de Clyde" ><br>
-    <p><li>Clyde : mon alter ego, je l'ai prise en main quand elle est était encore qu'un bébé</li></p>
-    <p><li>C'est une chasseuse hors pair</li></p>
-    <p><li>Points forts : stratégie, analyse </li> </p>
-
-    </section>
-
-    </section>
-
-    <img src="Pinky_PAC-MAN.png" alt="Photo de Pinky" >
-    <p><li>Moi c'est Pinky, je suis la formatrice de la wild ghost school</li></p>
-    <p><li>A ce stade , vous devrez n'avoir plus aucun doute de mes compétences</li></p>
-    <p><li>Si c'est le cas alors je vous propose de me tester <input type="button" value="tester moi"> </li> </p>
-
-    </section>
         </ul>
+        </div>  
 
-</body><?php include("_footer.php"); ?>
+    <h2 class= "titre1">Expérience en tant que formatrice : ci-joint une brève présentation de mes élèves</h2>
+
+<div class= "Pac">
+
+    <img id ="Blinky" class = "Blinky"src="img/Blinky.png" alt="Photo de Blinky" ><br>
+    
+    <ul class=P0>
+    <p><li>Blinky : Mon Ghost officier, 1er wilder que j'ai forme</li></p> <br>
+    <p><li>C'est un chasseur redoutable, il est en permanence sur les talons de Pac-man</li></p><br>
+    <p><li>Points forts : agressivite,vitesse, determination </li> </p>
+    </ul>
+    
+
+    </div>
+
+<div class= "Pac">
+
+    <img class= "Inky" src="img/Inky.png" alt="Photo de Inky" ><br>
+    <ul class=P1>
+    <p><li>Inky : bras de de Blinky</li></p><br>
+    <p><li>C'est un vrai camaleon qui change d'apparence pour plonger sur ses proies</li></p><br>
+    <p><li>Points forts : Intelligence, tactique </li> </p>
+    </ul>
+    </div>
+
+<div class="Pac">
+   
+    <img class= "Clyde"src="img/Clyde.png" alt="Photo de Clyde" ><br>
+    <ul class=P2>
+    <p><li>Clyde : mon alter ego</li></p><br>
+    <p><li>C'est une chasseuse hors pair</li></p><br>
+    <p><li>Points forts : strategie, analyse </li> </p>
+    </ul>
+    </div>
+
+    <div class="Pac">
+
+    <img class= "Pinky" src="img/Pinky.png" alt="Photo de Pinky" >
+    <ul class=P3>
+    <p><li>Moi c'est Pinky, je suis la formatrice de la wild ghost school</li></p><br>
+    <p><li>A ce stade , vous ne devriez avoir plus aucun doute de mes competences</li></p><br>
+    <p><li>Si c'est le cas alors je vous propose de me tester </li> </p>
+    <a href="game.php" class="bouton1">Testez-moi</a>
+    </ul>
+     </ul>
+     </div>
+     </div>
+
+     <?php include("_footer.php"); ?>
+     </div>
+     
+</body>
 </html>
