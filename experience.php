@@ -14,7 +14,7 @@
     <?php include("_nav.php"); ?>   
     
 ©
-    <div class="blok">
+        <div class="blok">
 
         <div class= "Pac">
     <h1 >Mon expérience de ghost wildeuse</h1>

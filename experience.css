@@ -10,29 +10,40 @@
     font-style: normal;
   }
 
+  .ecran {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    margin-top: 0px;
+}
+
 .blok {
 	display: flex;
 	flex-direction: column;
     align-items: flex-start;
-    background-color: black;
     justify-content: center;
     align-items: center;
-    background-color: black;
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 250px;
     color: yellow;
+}
 
-    
+.blok:nth-child(even) {
+    align-self: flex-end;
 }
 
 .Pac{
-	border: 5px solid #5B5DFF;
+	
 	width: 80%;
 	padding: 20px;
 	margin: 40px;
     border-radius: 30px;
     font-family: 'BDCartoonShoutRegular';
+}
+
+.Pac {
+    border: 5px solid #5B5DFF;
 }
 
 .Presentation{
@@ -46,11 +57,13 @@
 
 
 .Presentation li{
-    width: 30%;
+    display: block;
+    width: 45%;
     justify-content: left;
     font-family: 'BDCartoonShoutRegular';
     color: yellow;
     float: left;
+    padding-bottom: 15px;
  
     /*Centrer l'image verticalement*/
     margin-left: auto;
@@ -69,6 +82,7 @@
 }
 .Blinky{
     float: left;
+    
 }
 .P0{
     float: left;
@@ -110,12 +124,7 @@ a.bouton1 {
 a.bouton1:hover {
 	background: pink;
 }
-/*.Pac {
-	font-family: 'CrackMan';
-	color:white;
-    text-align: 100%;
-	font-size: 2em;
-}*/
+
 .titre1{
     color: pink;
     font-size: 2em;
