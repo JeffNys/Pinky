@@ -23,10 +23,7 @@
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD:experience.css
-=======
-    /*background-color: black;*/
->>>>>>> origin:css/experience.css
+
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 250px;
@@ -82,7 +79,9 @@
     font-family: 'CrackMan';
     text-align: center;
     margin: 30px;
-    font: size 100%; ;
+    font: size 100%; 
+    text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
+    color:#FF69CE;
 }
 .Blinky{
     float: left;
@@ -130,7 +129,7 @@ a.bouton1:hover {
 }
 
 .titre1{
-    color: pink;
-    font-size: 2em;
+    color:pink;
+    font-size: 40px;
     align-content: flex-start;
 }
