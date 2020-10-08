@@ -10,10 +10,10 @@
   <div class="hautFixe">
     </div>
   <div class="ecran">
- <?php 
+ <?php
   include("_nav.php");
  ?>
- 
+
  <h1 id="contact">Contactez-moi !</h1>
 
    <div align="center">
