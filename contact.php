@@ -8,10 +8,10 @@
   </head>
   <body>
   <div class="ecran">
- <?php 
+ <?php
   include("_nav.php");
  ?>
- 
+
  <h1 id="contact">Contactez-moi !</h1>
 
  <form action="cible.php" method="POST">
@@ -27,7 +27,7 @@
     <p><label for="Nom"> Ton Nom : </label><input type="text" name="Nom" id="Nom" size="15"></p>
 
     <p><label for="Prenom"> Ton Prénom : </label><input type="text" name="Prenom" id="Prenom" size="15"></p>
-    
+
     <p><label for="emailadress"> E-Mail ! </label><input type="text" name="emailadress" id="emailadress" size="27" placeholder="@"></p>
 
     <p>
@@ -35,7 +35,7 @@
         <textarea name="sendmail" id="mail" rows="15" cols="80">
         </textarea>
     </p>
-    
+
       <input type="submit" value="Envoyer" />
 
   </DIV>
