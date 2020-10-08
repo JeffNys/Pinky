@@ -10,6 +10,8 @@
 </head>
 
 <body>
+<div class="hautFixe">
+    </div>
     <div class="ecran">
     <?php include("_nav.php"); ?>   
     
