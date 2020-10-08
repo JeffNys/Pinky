@@ -15,6 +15,17 @@ body {
    background-image: url('../img/pacman-background.jpg');
 }
 
+
+span.enfant
+{
+ display: none;
+ text-align: center;
+}
+
+span.parent:hover .enfant{
+	display:block;
+}
+
 .ecran {
     justify-content: center;
     align-items: center;
@@ -45,15 +56,18 @@ h1 {
 }
 
 nav {
-  height: 100%;
+  width: 86%;
   margin: 0px;
 }
 
 .pinkyNav{
 	width: 50px;
 }
+
 nav ul {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 nav li {
@@ -71,6 +85,7 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: #FF69CE;
+    text-align: center;
 }
 
 footer {
