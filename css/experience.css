@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'CrackMan';
-    src: url('crackman.ttf') format('truetype');
+    src: url('../crackman.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'BDCartoonShoutRegular';
-    src: url('BD_Cartoon_Shout-webfont.ttf') format('truetype');
+    src: url('../BD_Cartoon_Shout-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -23,6 +23,10 @@
     align-items: flex-start;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD:experience.css
+=======
+    /*background-color: black;*/
+>>>>>>> origin:css/experience.css
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 250px;

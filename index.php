@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Speedy-Pinky</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_index.css">
   </head>
 
   <body>
@@ -18,13 +18,13 @@
 	    <div class="tram">
 		    <div class="blocs">
 			    <!-- ici le bloc présentation -->
-			    <h2>Mes capacites</h2>
+			    <h2>Mes competences</h2>
 			    <ul>
 				    <li>chasseuse d'intrus</li>
 				    <li>coach en tracking</li>
 				    <li>maitre d'armes</li>
 				    <li>membre de la ligue des fantomes historique</li>
-				    <li>liste à completer + mise en forme</li>
+				    <li>star du retro-gaming</li>
 			    </ul>	
 		    </div>
 
@@ -32,7 +32,7 @@
 			    <!-- ici le bloc dernière expériences -->
 			    <h2>Mon parcours</h2>
 			    <p>Je suis connu de tous dans mon role dans Pac-Man (qui appartient a l'histoire),
-			    vous pouvez decouvrir mon parcour un peu plus detaille, ainsi que mes roles caches 
+			    vous pouvez decouvrir mon parcour un peu plus en detaille, ainsi que mes roles caches 
 			    dans les coulisses de ce jeu, c'est ici: </p>
 			    <a href="experience.php" class="bouton1">Voir +</a>	
 		    </div>
@@ -40,7 +40,7 @@
 		    <div class="blocs">
 			    <!-- ici le bloc testez moi, ou, me voir en action -->
 			    <h2>Me voir en action</h2>
-			    <img class="anime" src="giphy.gif" alt="animation de Pinky attrapant pacman">
+			    <img class="anime" src="img/giphy.gif" alt="animation de Pinky attrapant pacman">
 			    <a href="game.php" class="bouton1">Testez-moi</a>
 		    </div>
 		    

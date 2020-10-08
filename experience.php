@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="experience.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/experience.css" />
     <title>speedy-Pinky</title>
 
 </head>
@@ -32,7 +32,7 @@
 
 <div class= "Pac">
 
-    <img id ="Blinky" class = "Blinky"src="Blinky.jpeg" alt="Photo de Blinky" ><br>
+    <img id ="Blinky" class = "Blinky"src="img/Blinky.png" alt="Photo de Blinky" ><br>
     
     <ul class=P0>
     <p><li>Blinky : Mon Ghost officier, 1er wilder que j'ai forme</li></p> <br>
@@ -45,7 +45,7 @@
 
 <div class= "Pac">
 
-    <img class= "Inky" src="Inky.jpeg" alt="Photo de Inky" ><br>
+    <img class= "Inky" src="img/Inky.png" alt="Photo de Inky" ><br>
     <ul class=P1>
     <p><li>Inky : bras de de Blinky</li></p><br>
     <p><li>C'est un vrai camaleon qui change d'apparence pour plonger sur ses proies</li></p><br>
@@ -55,7 +55,7 @@
 
 <div class="Pac">
    
-    <img class= "Clyde"src="Clyde.jpeg" alt="Photo de Clyde" ><br>
+    <img class= "Clyde"src="img/Clyde.png" alt="Photo de Clyde" ><br>
     <ul class=P2>
     <p><li>Clyde : mon alter ego</li></p><br>
     <p><li>C'est une chasseuse hors pair</li></p><br>
@@ -65,7 +65,7 @@
 
     <div class="Pac">
 
-    <img class= "Pinky" src="Pinky.jpeg" alt="Photo de Pinky" >
+    <img class= "Pinky" src="img/Pinky.png" alt="Photo de Pinky" >
     <ul class=P3>
     <p><li>Moi c'est Pinky, je suis la formatrice de la wild ghost school</li></p><br>
     <p><li>A ce stade , vous ne devriez avoir plus aucun doute de mes competences</li></p><br>
@@ -74,7 +74,6 @@
     </ul>
      </ul>
      </div>
-     <?php include("_footer.php"); ?>
      </div>
 
      <?php include("_footer.php"); ?>
