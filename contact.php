@@ -34,7 +34,7 @@
 
     <p>
         <label for="mail"> <h2> Your Message :</h2> </label> <br/>
-        <textarea name="sendmail" id="mail" rows="15" cols="80">
+        <textarea name="sendmail" id="mail" rows="15" cols="55">
         </textarea>
     </p>
 
