@@ -26,3 +26,10 @@ form
     flex-direction: column;
     margin-bottom: 250px;
 }   
+.panneau{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 6px;
+    border: 2px solid blue;
+    text-align: center;
+}
